@@ -11,6 +11,6 @@ if (!function_exists('toObject')) {
      */
     function toObject(array $array)
     {
-        return (object) $array);
+        return (object) $array;
     }
 }
