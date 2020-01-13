@@ -11,6 +11,6 @@ if (!function_exists('toObject')) {
      */
     function toObject(array $array)
     {
-        return (object) json_decode(json_encode($array));
+        return (object) $array);
     }
 }
